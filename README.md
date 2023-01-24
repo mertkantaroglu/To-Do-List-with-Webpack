@@ -63,7 +63,7 @@ Clone this repository to your desired folder: https://github.com/mertkantaroglu/
 
 ### Install <a name="install"></a>
 
-Install this project with Bash command
+git clone https://github.com/mertkantaroglu/To-Do-List-with-Webpack.git
 
 ### Usage <a name="usage"></a>
 
@@ -94,10 +94,6 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank for Microverse to provide me learning materials, my peers for helping me out to move forward.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## ❓ FAQ <a name="faq"></a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
