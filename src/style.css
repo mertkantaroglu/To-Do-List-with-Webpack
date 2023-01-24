@@ -1,33 +1,53 @@
 body {
-  background-color: rgb(201, 201, 201);
+  background-color: rgb(240, 240, 240);
   height: 60vh;
 }
 
 .main-container {
   margin: 20% 25%;
-  width: 30rem;
+  width: 25rem;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  border: 1px solid #eee;
+  background: white;
+  font-size: 16px;
+  line-height: 24px;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.27);
 }
 
 .title {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
-  width: 20rem;
+  border-bottom: 1px solid #eee;
+  line-height: 0;
+  padding: 10px 0 10px 10px;
 }
 
 h3 {
-  font-size: 24px;
+  font-size: 16px;
+  font-weight: 100;
 }
 
 .input-div {
-  margin: 1rem;
+  border-bottom: 1px solid #eee;
+  line-height: 24px;
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px 0 10px 10px;
+  align-items: center;
+  gap: 12.2rem;
 }
 
 input {
-  padding: 0.5rem 0 0.5rem 0.25rem;
+  border: none;
+  font-size: 16px;
+  font-style: italic;
+}
+
+input i {
+  margin-right: 20px;
+  font-size: 14px;
 }
 
 ul {
@@ -36,10 +56,32 @@ ul {
 
 li {
   list-style: none;
-  line-height: 1.5;
+  line-height: 24px;
+  border-bottom: 1px solid #eee;
+  padding: 10px 0 10px 10px;
+  font-weight: 100;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li:nth-child(1) {
+  margin-top: -16px;
+}
+
+li i {
+  margin-right: 10px;
+  font-size: 14px;
+}
+
+.title i {
+  margin-right: 10px;
+  font-size: 14px;
 }
 
 #clear-btn {
-  margin-top: 10px;
-  padding: 0.5rem 1rem;
+  margin-top: -16px;
+  padding: 15px 0;
+  border: 1px solid #eee;
+  font-size: 14px;
+  font-weight: 100;
 }
