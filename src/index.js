@@ -22,8 +22,8 @@ const toDoListContainer = document.querySelector('.to-do-list-container');
 const itemsListDisplay = () => {
   itemsList.forEach((item) => {
     toDoListContainer.innerHTML += `
-    <li class='to-do-item' value='index'>${item.description}</li>`
-  })
-}
+    <li class='to-do-item' value='index'>${item.description}</li>`;
+  });
+};
 
 window.addEventListener('load', itemsListDisplay);
