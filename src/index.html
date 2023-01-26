@@ -1,29 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>To Do List</title>
     <script
-      src="https://kit.fontawesome.com/69940923dd.js"
+      src="https://kit.fontawesome.com/be8db3d534.js"
       crossorigin="anonymous"
     ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do List</title>
   </head>
   <body>
-    <section class="main-container">
-      <div class="title">
-        <h3>Today's To Do</h3>
-        <i class="fa-solid fa-rotate fa-rotate-90"></i>
-      </div>
-      <div class="input-div">
-        <input type="text" id="input" placeholder="Add to your list.." />
-
-        <i class="fa-solid fa-arrow-turn-down fa-rotate-90"></i>
-      </div>
-      <div>
-        <ul class="to-do-list-container"></ul>
-      </div>
-      <button id="clear-btn">Clear all completed</button>
-    </section>
+    <main class="main">
+      <section class="main-container">
+        <div class="title">
+          <h1 class="todo-title">Today's To Do</h1>
+          <i class="fa-solid fa-rotate fa-rotate-90"></i>
+        </div>
+        <div class="input-container">
+          <input
+            type="text"
+            name="todo"
+            id="todo"
+            class="input-field"
+            placeholder="Add new item..."
+          />
+          <button class="add-btn">
+            <i class="fa-solid fa-arrow-turn-down fa-rotate-90"></i>
+          </button>
+        </div>
+        <ul class="todo-container"></ul>
+        <button class="clear-all-btn">Clear all completed</button>
+      </section>
+    </main>
   </body>
 </html>

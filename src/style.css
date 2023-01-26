@@ -1,18 +1,9 @@
 body {
   background-color: rgb(240, 240, 240);
-  height: 60vh;
-}
-
-.main-container {
-  margin: 15% auto;
-  width: 25rem;
-  display: flex;
-  flex-direction: column;
-  border: 1px solid #eee;
-  background: white;
-  font-size: 16px;
-  line-height: 24px;
-  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.27);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
 }
 
 .title {
@@ -21,67 +12,115 @@ body {
   align-items: center;
   border-bottom: 1px solid #eee;
   line-height: 0;
-  padding: 10px 0 10px 10px;
-}
-
-h3 {
-  font-size: 16px;
-  font-weight: 100;
-}
-
-.input-div {
-  border-bottom: 1px solid #eee;
-  line-height: 24px;
-  display: flex;
-  justify-content: flex-start;
-  padding: 10px 0 10px 10px;
-  align-items: center;
-  gap: 12.2rem;
-}
-
-input {
-  border: none;
-  font-size: 16px;
-  font-style: italic;
-}
-
-input i {
-  margin-right: 20px;
-  font-size: 14px;
-}
-
-ul {
-  padding: 0;
-}
-
-li {
-  list-style: none;
-  line-height: 24px;
-  border-bottom: 1px solid #eee;
-  padding: 10px 0 10px 10px;
-  font-weight: 100;
-  display: flex;
-  justify-content: space-between;
-}
-
-ul li:nth-child(1) {
-  margin-top: -16px;
-}
-
-li i {
-  margin-right: 10px;
-  font-size: 14px;
+  padding: 10px 10px 10px 20px;
 }
 
 .title i {
   margin-right: 10px;
-  font-size: 14px;
 }
 
-#clear-btn {
-  margin-top: -16px;
-  padding: 15px 0;
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.main-container {
+  min-width: 300px;
+  width: 40%;
+  max-width: 1000px;
+  border-radius: 4px;
+  margin: 15% auto;
+  display: flex;
+  flex-direction: column;
   border: 1px solid #eee;
-  font-size: 14px;
+  background: white;
+  font-size: 16px;
+  line-height: 24px;
+  box-shadow: 10px 10px 10px 0 rgb(0 0 0 / 27%);
+}
+
+.todo-title {
+  font-size: 18px;
   font-weight: 100;
+}
+
+.input-container {
+  border-bottom: 1px solid #eee;
+  line-height: 24px;
+  display: flex;
+  padding: 5px 10px 5px 5px;
+  align-items: center;
+  font-style: italic;
+  justify-content: space-between;
+}
+
+.input-field {
+  width: 90%;
+  height: 24px;
+  border: none;
+  font-size: 16px;
+  font-style: italic;
+  padding: 5px 0 5px 10px;
+}
+
+.add-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin-right: 8px;
+}
+
+.clear-all-btn {
+  width: 100%;
+  margin: 12px 0 0 0;
+  border: none;
+  cursor: pointer;
+  background-color: #eee;
+  color: black;
+  outline: none;
+  padding: 20px 0;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.todo-container {
+  list-style: none;
+  padding: 0 14px;
+  margin: 0;
+}
+
+.todo-li {
+  display: flex;
+  padding: 8px 0;
+  list-style: none;
+  line-height: 24px;
+  border-bottom: 1px solid #eee;
+  font-weight: 100;
+  justify-content: space-between;
+}
+
+.todo-li:last-child {
+  border-bottom: none;
+  padding: 7px 0 0 0;
+}
+
+.todo-text {
+  width: 85%;
+  padding: 0 7px;
+  border: none;
+  font-size: 16px;
+  font-weight: 100;
+}
+
+.trash-can {
+  padding-right: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.completed {
+  text-decoration: line-through;
 }
