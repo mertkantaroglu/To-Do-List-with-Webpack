@@ -1,4 +1,4 @@
-import { setToDo } from './store.js';
+import { getToDo, setToDo } from './store.js';
 import { renderToDoList } from './render.js';
 
 // Add Todo
@@ -43,4 +43,26 @@ export const deleteToDo = (e, todos) => {
   });
   setToDo(todos);
   renderToDoList(todos);
+};
+
+// Mark Completed Todo
+export const markToDo = (e, todos) => {
+  const clickedCheckbox = e.target.closest('.todo-checkbox');
+  const clickedToDo = clickedCheckbox.nextElementSibling;
+  const toDoIndex = todos.findIndex(
+    (toDoItem) => toDoItem.toDoItem === clickedToDo.value,
+  );
+  todos = getToDo();
+  todos[toDoIndex].completed = !todos[toDoIndex].completed;
+  setToDo(todos);
+  renderToDoList(todos);
+};
+
+// Clear Completed Todo
+export const clearToDos = (todos) => {
+  todos = todos.filter((toDoItem) => toDoItem.completed === false);
+  todos.forEach((toDoItem, index) => {
+    toDoItem.id = index + 1;
+  });
+  return todos;
 };
