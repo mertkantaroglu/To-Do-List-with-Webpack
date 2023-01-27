@@ -45,15 +45,6 @@ export const deleteToDo = (e, todos) => {
   renderToDoList(todos);
 };
 
-// Clear Completed Todo
-export const clearToDos = (todos) => {
-  todos = todos.filter((toDoItem) => toDoItem.completed === false);
-  todos.forEach((toDoItem, index) => {
-    toDoItem.id = index + 1;
-  });
-  return todos;
-};
-
 // Mark Completed Todo
 export const markToDo = (e, todos) => {
   const clickedCheckbox = e.target.closest('.todo-checkbox');
@@ -65,4 +56,13 @@ export const markToDo = (e, todos) => {
   todos[toDoIndex].completed = !todos[toDoIndex].completed;
   setToDo(todos);
   renderToDoList(todos);
+};
+
+// Clear Completed Todo
+export const clearToDos = (todos) => {
+  todos = todos.filter((toDoItem) => toDoItem.completed === false);
+  todos.forEach((toDoItem, index) => {
+    toDoItem.id = index + 1;
+  });
+  return todos;
 };
