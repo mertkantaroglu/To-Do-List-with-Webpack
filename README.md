@@ -45,7 +45,7 @@
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-Coming Soon!
+[Live Demo](https://mertkantaroglu.github.io/To-Do-List-with-Webpack/dist)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
