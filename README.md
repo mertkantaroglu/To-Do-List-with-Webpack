@@ -4,20 +4,20 @@
 
 # 📗 Table of Contents
 
-- [📖 About the To-Do List Project](#about-project)
-- [🛠 Built With](#built-with)
-- [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Run tests](#run-tests)
-  - [Deployment](#deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [🙏 Acknowledgements](#acknowledgments)
-- [❓ FAQ](#faq)
-- [📝 License](#license)
+- [To-Do List Project](#to-do-list-project)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 To-do List Project ](#-to-do-list-project-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites ](#prerequisites-)
+    - [Setup ](#setup-)
+    - [Install ](#install-)
+    - [Usage ](#usage-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
 
 # 📖 To-do List Project <a name="about-project"></a>
 
@@ -43,12 +43,6 @@
   </ul>
 </details>
 
-## 🚀 Live Demo <a name="live-demo"></a>
-
-[Live Demo](https://mertkantaroglu.github.io/To-Do-List-with-Webpack/dist)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 💻 Getting Started <a name="getting-started"></a>
 
 Portfolio presentation will be coming soon.
@@ -69,16 +63,6 @@ git clone https://github.com/mertkantaroglu/To-Do-List-with-Webpack.git
 
 To run the project, execute the following command: Click on Live server option in your IDE
 
-## 👥 Authors <a name="authors"></a>
-
-### 👤 **Mert Kantaroglu**
-
-- GitHub: [@mertkantaroglu](https://github.com/mertkantaroglu/)
-- Twitter: [@aranelluinwe](https://twitter.com/aranelluinwe)
-- LinkedIn: [mertkantaroglu](https://www.linkedin.com/in/mert-kantaroglu/)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ## 🔭 Future Features <a name="future-features"></a>
 
 For the future features I will add custom styling and also favorite button to the project.
@@ -94,11 +78,5 @@ Contributions, issues, and feature requests are welcome!
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
 I would like to thank for Microverse to provide me learning materials, my peers for helping me out to move forward.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 📝 License <a name="license"></a>
-
-This project is [MIT](LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

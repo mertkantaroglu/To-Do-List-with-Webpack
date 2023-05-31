@@ -7,3 +7,15 @@ export const getToDo = () => {
   const todos = toDoData;
   return todos;
 };
+
+/* 
+const setTodo = (todos) => {
+  localStorage.setItem('toDoList', JSON.stringify(todos));
+};
+
+const get ToDo = () => {
+  const toDoData = JSON.parse(localStorage.getItem('toDoList')) || [];
+  const todos = toDoData;
+  return todos;
+}
+*/
