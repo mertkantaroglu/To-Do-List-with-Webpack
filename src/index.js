@@ -23,6 +23,16 @@ input.addEventListener('keypress', (e) => {
   }
 });
 
+/*
+input.addEventListener('keypress', (e) => {
+  if (e.keyCode === 13 && input.value !== '') {
+    addToDo(toDoItems(), input.value);
+    input.value = '';
+    renderToDoList(toDoItems());
+  }
+})
+*/
+
 // Add Event Listener with Click
 addButton.addEventListener('click', () => {
   if (input.value !== '') {
@@ -33,6 +43,17 @@ addButton.addEventListener('click', () => {
   }
 });
 
+/*
+addButton.addEventListener('click', () => {
+  if (input.value !== '') {
+    addToDo(toDoItems(), input.value);
+    input.value = '';
+    setToDo(toDoItems());
+    renderToDoList(toDoItems());
+  }
+})
+*/
+
 // Edit Event Listener
 toDoList.addEventListener('click', (e) => {
   if (e.target.closest('.todo-text')) {
@@ -40,12 +61,26 @@ toDoList.addEventListener('click', (e) => {
   }
 });
 
+/* 
+toDoList.addEventListener('click', (e) => {
+  if (e.target.closest('.todo-text')) {
+    editToDo(e, toDoItems());
+  }
+})
+*/
+
 // Delete Event Listener
 toDoList.addEventListener('click', (e) => {
   if (e.target.closest('.trash-can')) {
     deleteToDo(e, toDoItems());
   }
 });
+
+/*
+toDoList.addEventListener('click', (e) => {
+  if (e.target.closest())
+})
+*/
 
 // Clear Completed Todo Event Listener
 clearButton.addEventListener('click', () => {
